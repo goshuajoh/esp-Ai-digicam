@@ -57,3 +57,23 @@ You can also modify the default command list, please refer to [document](https:/
     multinet->print_active_speech_commands(model_data);     // print active commands
 ```
 # esp-Ai-digicam
+
+Ai digicam
+
+Firstly, lcd previews camera frame.
+
+2 options to capture an image:
+
+1. Pressing the boot button
+2. Activating with voice command [AI]
+
+For method 2:
+1. Activate AI using wake word “Jarvis”
+2. If wake word successfully recognised, the text “Yessir!” Will appear on the LCD screen
+3. The following commands will capture an image:
+    1. Take Picture
+    2. Take a picture
+    3. Skibidi toilet
+
+Once image capture task has been activated, camera frame will be taken, and sent to a telegram bot, which would then send an image to telegram.	
+
